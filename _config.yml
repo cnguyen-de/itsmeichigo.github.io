@@ -3,7 +3,7 @@ title:               Tea with ichigo 🍵
 tagline:             Combatting the intimidating unknowns
 url:                 https://itsmeichigo.github.io/
 paginate:            1
-baseurl:             https://itsmeichigo.github.io/poole/
+baseurl:             ""
 permalink:           pretty
 
 # Gems
