@@ -1,14 +1,26 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-
 # Setup
 title:               Tea with ichigo 🍵
 tagline:             Combatting the intimidating unknowns
 url:                 https://itsmeichigo.github.io/
 paginate:            1
 baseurl:             http://itsmeichigo.github.io/poole/
+permalink:           pretty
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
 
 # Assets
 #
@@ -24,6 +36,4 @@ author:
   email:             huongdt29@gmail.com
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              http://itsmeichigo.github.io/poole/
+version:             3.0.0
