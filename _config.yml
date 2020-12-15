@@ -7,7 +7,7 @@ baseurl:             /
 permalink:           pretty
 
 # Gems
-plugins:
+gems:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag

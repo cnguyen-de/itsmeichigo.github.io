@@ -272,17 +272,17 @@ I cannot end this article without mentioning backpressure. It defines the core p
 
 The specification of demands makes sure that the subscription sends just enough items as requested by the subscriber and no more. Below is an illustration for a `Sink` subscriber to visualize the relationship and clarify the explanations a little further (apologies for my poor drawing skills 🙂):
 
-![../images/combine-carbon.png](../images/combine-carbon.png)
+![https://github.com/itsmeichigo/itsmeichigo.github.io/blob/master/images/combine-carbon.png](https://github.com/itsmeichigo/itsmeichigo.github.io/blob/master/images/combine-carbon.png)
 
 Backpressure is an advanced topic and as Apple keeps their implementations of publishers and subscribers private, so the complexity of this management is hidden from developers. Understanding the principle of backpressure makes customization for publishers and subscribers possible. One particular use case for this is [CombineCocoa by CombineCommunity](https://github.com/CombineCommunity/CombineCocoa), which makes integration of Combine when using UIControls much more convenient. However, Apple strongly encourages that developers use the built-in convenience publishers and subjects instead of implementing custom ones, so it is important to look for simple solutions before tempting to overengineer your solutions to avoid bringing complexity and potential bugs to your projects.
 
 
 ## Epilogue
 
-Since Combine only supports iOS 13 onwards, it may be a bit early for migration for most of current projects. Nevertheless, it’s never too soon to learn new tech and start experimenting with it to get yourself comfortable and “relevant”. The framework itself is still under development and improvement, so don’t forget to check back in future WWDCs for any cool new updates. I hope this article inspires you to dive deeper and learn more about Combine. I would like to give my thanks to [Donny Wals](https://twitter.com/DonnyWals) for his book [Practical Combine](https://gumroad.com/donnywals#XVbKP), as well as all the resources listed in the References sections for making this article possible. In the meantime, you can also check out [RxCombine](https://github.com/CombineCommunity/RxCombine) to discover the possiblities of bridging between the two frameworks. Have fun!
+Since Combine only supports iOS 13 onwards, it may be a bit early for migration for most of current projects. Nevertheless, it’s never too soon to learn new tech and start experimenting with it to get yourself comfortable and “relevant”. The framework itself is still under development and improvement, so don’t forget to check back in future WWDCs for any cool new updates. I hope this article inspires you to dive deeper and learn more about Combine. I would like to give my thanks to [Donny Wals](https://twitter.com/DonnyWals) for his book [Practical Combine](https://gumroad.com/donnywals#XVbKP), as well as all the resources listed in the Resources sections for making this article possible. In the meantime, you can also check out [RxCombine](https://github.com/CombineCommunity/RxCombine) to discover the possiblities of bridging between the two frameworks. Have fun!
 
 
-## References
+## Further Resources
 
 [Apple Developer Documentation](https://developer.apple.com/documentation/combine)
 
