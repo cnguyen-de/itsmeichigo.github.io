@@ -1,10 +1,10 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
-paginate: 1
-baseurl: ""
-permalink: pretty
+title:               Tea with ichigo 🍵
+tagline:             Combatting the intimidating unknowns
+url:                 https://itsmeichigo.github.io/
+paginate:            1
+baseurl:             /
+permalink:           pretty
 
 # Gems
 plugins:
@@ -33,9 +33,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name:              Huong Do
+  url:               https://twitter.com/itsmeichigo
+  email:             huongdt29@gmail.com
 
 # Custom vars
-version: 3.0.0
+version:             3.0.0
