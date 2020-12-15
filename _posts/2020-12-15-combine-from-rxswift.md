@@ -272,7 +272,7 @@ I cannot end this article without mentioning backpressure. It defines the core p
 
 The specification of demands makes sure that the subscription sends just enough items as requested by the subscriber and no more. Below is an illustration for a `Sink` subscriber to visualize the relationship and clarify the explanations a little further (apologies for my poor drawing skills 🙂):
 
-![/images/combine-carbon.png](/images/combine-carbon.png)
+![https://github.com/itsmeichigo/itsmeichigo.github.io/raw/gh-pages/images/combine-carbon.png](https://github.com/itsmeichigo/itsmeichigo.github.io/raw/gh-pages/images/combine-carbon.png)
 
 Backpressure is an advanced topic and as Apple keeps their implementations of publishers and subscribers private, so the complexity of this management is hidden from developers. Understanding the principle of backpressure makes customization for publishers and subscribers possible. One particular use case for this is [CombineCocoa by CombineCommunity](https://github.com/CombineCommunity/CombineCocoa), which makes integration of Combine when using UIControls much more convenient. However, Apple strongly encourages that developers use the built-in convenience publishers and subjects instead of implementing custom ones, so it is important to look for simple solutions before tempting to overengineer your solutions to avoid bringing complexity and potential bugs to your projects.
 
